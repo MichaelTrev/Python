@@ -118,3 +118,4 @@ venv.bak/
 .ropeproject
 
 # mkdocs documentation
+/site
