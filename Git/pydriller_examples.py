@@ -10,3 +10,4 @@ def traverse_commits():
 
     # for commit in Repository('https://github.com/jgraber/PythonFriday').traverse_commits():
     for commit in Repository('..\..\PythonFriday').traverse_commits():
+        print(f"{commit.committer_date} - {commit.hash[0:8]} - {commit.author.name}")
