@@ -13,3 +13,4 @@ def traverse_commits():
         print(f"{commit.committer_date} - {commit.hash[0:8]} - {commit.author.name}")
         
     # Sample output:
+    # 2021-10-21 22:33:00+02:00 - 1be83b81 - Johnny Graber
