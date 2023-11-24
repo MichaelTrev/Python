@@ -17,3 +17,5 @@ def traverse_commits():
     # 2021-10-22 23:30:00+02:00 - c816a116 - Johnny Graber
     # 2021-10-24 11:18:10+02:00 - 64ec912d - Johnny Graber
     # 2021-10-25 15:37:05+02:00 - 0a9b1109 - Johnny Graber
+
+def traverse_commits_and_files():
