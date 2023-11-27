@@ -22,3 +22,4 @@ def traverse_commits():
 def traverse_commits_and_files():
     """
     traverse_commits() allows us to walk through the commit history.
+    """
