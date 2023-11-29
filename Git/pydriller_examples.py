@@ -24,3 +24,5 @@ def traverse_commits_and_files():
     traverse_commits() allows us to walk through the commit history.
     """
     print_separator("traverse_commits")
+   
+    # for commit in Repository('https://github.com/jgraber/PythonFriday').traverse_commits():
