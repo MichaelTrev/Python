@@ -26,3 +26,4 @@ def traverse_commits_and_files():
     print_separator("traverse_commits")
    
     # for commit in Repository('https://github.com/jgraber/PythonFriday').traverse_commits():
+    for commit in Repository('..\..\PythonFriday').traverse_commits():
