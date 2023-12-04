@@ -28,3 +28,4 @@ def traverse_commits_and_files():
     # for commit in Repository('https://github.com/jgraber/PythonFriday').traverse_commits():
     for commit in Repository('..\..\PythonFriday').traverse_commits():
         print(f"{commit.hash} - {commit.committer_date} - {commit.author.name} - {commit.msg}")
+        for file in commit.modified_files:
